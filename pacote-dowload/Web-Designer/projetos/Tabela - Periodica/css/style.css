@@ -1,0 +1,116 @@
+* {
+    box-sizing: inherit;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: rgb(143, 154, 156);
+    margin-top: 0;
+}
+
+#secprincipal {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* DIVs da tabela */
+#secprincipal section.linha div {
+    width: 70px; height: 70px;
+    border-radius: 3px;
+    margin: 1px 1px;
+    display: inline-block;
+}
+
+/* DIVs brancas da tabela */
+#secprincipal section div.branco {
+    color: #fff;
+}
+
+#secprincipal section.l8 {
+    margin-top: 35px;
+}
+
+#secresumo {
+    margin-top: 60px;
+}
+
+#secresumo div {
+    width: 2%; height: 40px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#secresumo p {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 0;
+    padding: 0;
+    width: 170px;
+}
+
+
+/* .................................................... 
+    Cores das divs 
+*/
+.laranja {background-color: rgba(253, 161, 0);}
+
+.roxo {background-color: rgba(187, 145, 255);}
+
+.verde {background-color: rgba(71, 196, 104);}
+
+.verdeclaro {background-color: rgba(167, 227, 189);}
+
+.rosaclaro {background-color: rgba(231, 210, 253);}
+
+.amarelo {background-color: rgba(253, 215, 82);}
+
+.amareloclaro {background-color: rgba(213, 227, 139);}
+
+.vermelho {background-color: rgba(251, 115, 62);}
+
+.vermelhoclaro {background-color: rgba(255, 177, 180);}
+
+.azul {background-color: rgba(105, 178, 246);}
+
+.azulclaro {background-color: rgba(188, 221, 252);}
+
+.pretoclaro {background-color: rgba(129, 146, 198);}
+
+/* .................................................... 
+    Estilização dos textos 
+*/
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+span.nEsquerda {
+    text-align: right;
+    font-size: 8pt;
+    padding: 0 3px 0 0;
+}
+
+span.tCentro {
+    text-align: center;
+    font-weight: 600;
+    padding: 5px 0 0 0; margin: 0%;
+}
+
+span.centag {
+    text-align: center;
+    font-weight: 500;
+    font-size: 7pt;
+    padding: 0; margin: 0%;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;padding: 0%;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#bloco {
+    background-color: rgb(105, 53, 148);
+    width: 72%;margin: 0 auto;
+}
+
+figure {
+    display: inline-block;
+    margin: 5px;
+}
+
+figcaption {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    width: 225px;
+}
+
+span.bold {
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+}
+
+span.left {
+    display: block;
+    padding-left: 9px;
+}

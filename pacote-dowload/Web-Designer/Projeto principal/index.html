@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lanchonete Bertelli  |  O melhor lanche da região, variedades de lanches</title>
+  <link rel="stylesheet" href="estilo/estrutura.css">
+  <link rel="stylesheet" href="estilo/style-index.css">
+  <script src="js/header-index.js"></script>
+</head>
+<body>
+  <header id="cabprincipal"><!-- Cabeçalho principal -->
+    <h1>Lanchonete Bertell'i</h1>
+    <nav class="topnav" id="navprincipal"><!-- Navegação principal -->
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="cardapio.html">cardápio</a></li>
+        <li><a href="sobre.html">sobre</a></li>
+      </ul>
+      <div class="container" onclick="iconMenu(this)">
+        <div class="row1"></div>
+        <div class="row2"></div>
+        <div class="row3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contprincipal"><!-- Conteúdo principal -->
+    <section id="secprincipal"><!-- Seção principal -->
+      <!-- Fundo com efeito hover -->
+      <figure class="img">
+        <a href="cardapio.html">
+          <figcaption class="fundohover">
+            <p>
+              Clique e veja nosso cardápio
+            </p>
+            <p>
+              Veja o que você vai encontrar
+            </p>
+          </figcaption>
+        </a>
+        <picture>
+          <source media="(max-width: 1240px)" srcset="imagens/img-principal-545.png">
+          <source media="(min-width: 1700px)" srcset="imagens/img-principal-1040.jpg">
+          <img src="imagens/img-principal-800.png" alt="Imagen principal">
+        </picture>
+      </figure>
+    </section>
+
+    <section id="seccardapio"><!-- Seção cardápio -->
+      <nav id="menucardapio">
+        <h2>O que você vai<br> encontrar?</h2>
+        <ul>
+          <li><a href="cardapio.html"><img src="imagens/icons/burger.png" alt="Icone de HotDog"><span class="largura maior">Lanches</span></a></li>
+          <li><a href="cardapio.html"><img src="imagens/icons/dog.png" alt="Icone de HotDog"><span class="largura">Hot Dogs</span></a></li>
+          <li><a href="cardapio.html"><img src="imagens/icons/pizza.png" alt="Icone pedaço de pizza"><span class="largura">Pizzas</span></a></li>
+          <li><a href="cardapio.html"><img src="imagens/icons/porcoes.png" alt="Icone de HotDog"><span class="largura">Porções</span></a></li>
+          <li><a href="cardapio.html"><img src="imagens/icons/sobremesa.png" alt="Icone de HotDog"><span class="largura">Sobremesas</span></a></li>
+        </ul>
+      </nav>
+    </section>
+  </main>
+
+  <section id="secfundo">
+    <div class="fundoimg"></div>
+  </section>
+
+  <section id="seccliente">
+  <h2>Veja a opinião de alguns de nossos clientes</h2>
+    <article>
+      <figure class="card card1">
+        <picture>
+          <figcaption class="nome nome1">Priscila</figcaption>
+          <source  media="(min-width: 1500px)" srcset="imagens/card1-300.jpg">
+          <img src="imagens/card1.jpg" alt="Imagem do cliente">
+          <figcaption class="aval aval1">
+            Desde que conheci essa lanchonete, descobri um novo ambiente inovador e que preza pelo bem estar do cliente. Sem contar os lanches maravilhosos. <br>
+          </figcaption>
+        </picture>
+      </figure>
+
+      <figure class="card card2">
+        <picture>
+          <figcaption class="nome nome2">Diego</figcaption>
+          <source  media="(min-width: 1500px)" srcset="imagens/card2-300.jpg">
+          <img src="imagens/card2.jpg" alt="Imagem do cliente">
+          <figcaption class="aval aval2">
+            Fazem um ótimo Hot Dog com bastante recheio.
+          </figcaption>
+        </picture>
+      </figure>
+
+      <!--<figure class="card card2">
+        <figcaption class="nome2">Daniel</figcaption>
+        <img src="imagens/cardmaior.jpg" alt="Imagem do cliente">
+        <figcaption class="aval aval2">
+          Muito bom atendimento, lugar para levar a familia para um passeio, me senti muito confortavel, e a pizza então, estava deliciosa.
+        </figcaption>
+      </figure>-->
+    </article>
+  </section>
+
+  <footer id="rodprincipal">
+    <address>
+      <a href="https://www.instagram.com/" target="_blank"><img src="imagens/icons/instagram.png" alt="Icone do Instagram"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="imagens/icons/facebook.png" alt="Icone do Facebook"></a>
+      <a href="https://www.whatsapp.com/" target="_blank"><img src="imagens/icons/whats.png" alt="Icone do Facebook"></a>
+      <!--<a href="tel:+5519991947632">(19) 99194-7632</a>-->
+    </address>
+    <p>
+      &copy;Lanchonete Bertell'i - 2021
+    </p>
+  </footer>
+</body>
+</html>

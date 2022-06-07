@@ -1,0 +1,20 @@
+/* Conteúdo do arquivo mystyle.css */
+hr {color: sienna;font-size: 5em;}
+ 
+body {
+  background-color: rgb(228, 228, 228);
+  color: rgb(0, 0, 93);
+}
+
+p {
+  width: 400px;
+  margin-left: 100px;
+  color: white;
+  background-color: rgb(0, 0, 42);
+ }
+
+h1 {
+  font-size: 3cm; 
+  text-align: center;
+  color: green;
+  } 

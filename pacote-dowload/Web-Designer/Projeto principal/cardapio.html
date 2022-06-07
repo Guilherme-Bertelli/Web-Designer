@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lanchonete Bertelli |        O melhor lanche da região, variedades de lanches</title>
+  <link rel="stylesheet" href="estilo/estrutura.css">
+  <link rel="stylesheet" href="estilo/style-cardapio.css">
+  <script src="js/cardapio.js"></script>
+</head>
+<body>
+  <header id="cabprincipal"><!-- Cabeçalho principal -->
+    <h1>Lanchonete Bertell'i</h1>
+    <nav id="navprincipal"><!-- Navegação principal -->
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="cardapio.html">cardápio</a></li>
+        <li><a href="sobre.html">sobre</a></li>
+      </ul>
+      <div class="container" onclick="iconMenu(this)">
+        <div class="row1"></div>
+        <div class="row2"></div>
+        <div class="row3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contprincipal">
+    <section id="secprincipal">
+      <nav id="navcardapio">
+        <h1>Cardápio</h1>
+        <ul>
+          <li>
+            <a href="#" onmouseenter="mudaImagem1()" onclick="apareceProd()">Lanches</a>
+          </li>
+
+          <li>
+            <a href="#" onmouseenter="mudaImagem2()" onclick="apareceProd()">Hot Dogs</a>
+          </li>
+
+          <li>
+            <a href="#" onmouseenter="mudaImagem3()"  onclick="apareceProd()">Pizzas</a>
+          </li>
+
+          <li>
+            <a href="#" onmouseenter="mudaImagem4()"  onclick="apareceProd()">Porções</a>
+          </li>
+
+          <li>
+            <a href="#" onmouseenter="mudaImagem5()"  onclick="apareceProd()">Sobremesas</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="secimg">
+      <aside class="img">
+        <img src="imagens/lanche01-600.jpg" alt="" id="imagem">
+      </aside>
+    </section>
+  </main>
+
+  <section class="veja">
+    <p>Clique em uma da opções e veja aqui o cardápio</p>
+  </section>
+
+  <aside class="produto">
+    <dl>
+      <section class="parte1">
+        <dt>01 - X-Salada <span class="ponto">...............</span> <span class="preco">R$ 9.50</span></dt>
+        <dd>Pão hamburguer, hamburguer, queijo,<br>  alface, maionese, tomate</dd>
+        <dt>02 - X-Burger <span class="ponto">..............</span> <span class="preco">R$ 9.50</span></dt>
+        <dd>Pão hamburguer, hamburguer, queijo</dd>
+        <dt>03 - X - Bacon <span class="ponto">.............</span> <span class="preco">R$ 9.50</span></dt>
+        <dd>Pão hamburguer, hamburguer, queijo,<br> bacon, alface, maionese</dd>
+        <dt>04 - X - Egg <span class="ponto">.................</span> <span class="preco">R$ 9.50</span></dt>
+        <dd>Pão hamburguer, hamburguer, queijo,<br>  ovo, alface, maionese, tomate</dd>
+        <dt>05 - Big Burger <span class="ponto">...........</span> <span class="preco">R$ 9.50</span></dt>
+        <dd>Pão hamburguer, hamburguer, creme de milho, queijo, bacon</dd>
+      </section>
+
+      <section class="parte2">
+        <dt>06 - Especial <span class="ponto">............................</span> <span class="preco">R$ 19.00</span></dt>
+        <dd>Pão hamburguer, 2 hamburguers, queijo, tomate, alface, maionese</dd>
+
+        <dt>07 - X-Salada Canadense <span class="ponto">.....</span> <span class="preco">R$ 17.00</span></dt>
+        <dd>Pão hamburguer, hamb., lombo canadense, queijo, alface, maionese, tomate</dd>
+        
+        <dt>08 - X - Salada Tender <span class="ponto">...........</span class="preco"> <span class="preco">R$ 9.50</span></dt>
+        <dd>Pão hamburguer, hamburguer, tender, queijo, alface, maionese, tomate</dd>
+        
+        <dt>09 - X - Salada Calabresa <span class="ponto">......</span> <span class="preco">R$ 9.50</span></dt>
+        <dd>Pão hamburguer, hamburguer, calabresa, queijo, alface, maionese, tomate</dd> 
+      </section>
+    </dl>
+    <section id="secvalor">
+      <h2>Aqui está o valor do seu pedido:</h2>
+      <div class="divpreco">
+
+      </div>
+    </section>
+  </aside>
+
+  <footer id="rodprincipal">
+    <address>
+      <a href="https://www.instagram.com/" target="_blank"><img src="imagens/icons/instagram.png" alt="Icone do Instagram"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="imagens/icons/facebook.png" alt="Icone do Facebook"></a>
+      <a href="https://www.whatsapp.com/" target="_blank"><img src="imagens/icons/whats.png" alt="Icone do Facebook"></a>
+      <!--<a href="tel:+5519991947632">(19) 99194-7632</a>-->
+    </address>
+    <p>
+      &copy;Lanchonete Bertell'i - 2021
+    </p>
+  </footer>
+</body>
+</html>
